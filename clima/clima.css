@@ -1,6 +1,15 @@
-.horas img{width: 90px;height: 40px;}
-.imagentemp{width: 20px;height: 40px;}
-ul li{list-style-type: none;}
+.horas img{
+    width: 80px;
+    height: 80px;}
+.imagentemp{
+    width: 20px;
+    height: 40px;}
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;}
+ul{
+    padding: 0%;}
 
 body { 
     margin: 0;
@@ -19,7 +28,6 @@ body {
 header {
         
     width: 100%;
-    
     color: white;
     text-align: center;
     padding: 10px;
@@ -30,7 +38,6 @@ header {
 
 footer {
     width: 100%;
-    
     color: white; 
     text-align: center;
     padding: 10px;
@@ -39,18 +46,55 @@ footer {
     
 }
 
-.clima{background-color: white}
+.ciudad{
+    display: flex;
+    flex-direction:column;
+    padding-left: 10px;
+    height: 65px;
+    font-size: 20px;
+    padding-top: 10px;}
+.grados{
+    display: flex;
+    width: 450px;
+    padding-left: 15px;}
+.predicciones{
+    width: 600px;
+    font-size:20px;
+    margin-bottom: 40px;
+    } 
 
-.ciudad{display: flex;flex-direction:column;background-color: red;}
-.grados{display: flex;width: 450px;background-color: blue;}
-.predicciones{width: 600px;background-color: yellow;} 
-
-.losdos{display: flex;}
-.horas{display: grid;grid-template-columns: repeat(24,1fr);gap: 10px; 
+.losdos{
+    display: flex;
+    color: white;}
+.horas{
+    display: grid;
+    grid-template-columns: repeat(24,1fr);
     max-width: 500px;
-    
-    overflow-x: auto;max-height: 300px;overflow-y: auto;margin-top: 10px; }
-.pegado{position: relative;}
-.general{max-width: 500px;}
-#textop{font-size: 55px;margin-top: 20px;margin-bottom: 10px;}
+    overflow-x: auto;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;}
+.pegado{
+    position: relative;}
+.general{
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);}
+#textop{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;}
+.amarillo{
+    color: rgb(243, 243, 162);}
+.imagen-clima{
+    height: 80px;}
+.horas li{
+    padding-left: 20px;}
+.blanco{
+    color: white;}
 
+.header{background-image:url(/clima/img/termometro.png) ;
+background-position: center;background-repeat: no-repeat;background-size: auto;}
+button{width: 40px;height: 60px;margin: 10px;}

@@ -69,3 +69,4 @@ document.body.style.backgroundImage =`url(${imagenAleatoria})`;
 }
         
 setInterval(mostrarImagenAleatoria, 5000);
+mostrarImagenAleatoria();

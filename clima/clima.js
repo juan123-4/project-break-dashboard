@@ -147,8 +147,8 @@ function mostrarclima(devolver) {
         <ul>
             <div class="pegado">
             <div class="ciudad">
-            <li>${ciudad}/${pais}</li>
-            <li>${condiciones}</li>
+            <li class="blanco">${ciudad}/${pais}</li>
+            <li class="amarillo">${condiciones}</li>
             
             </div>
             
@@ -161,7 +161,7 @@ function mostrarclima(devolver) {
             <div class="predicciones">
             <li>precipitaciones: ${precipitacion} %</li>
             <li>Humedad: ${humedad} %</li>
-            <li>Viento: ${viento} kph</li>
+            <li>Viento: ${viento} Km/h</li>
             
             
             </div>
@@ -173,149 +173,149 @@ function mostrarclima(devolver) {
             
                 <div>
                 <li>${horacero}</li>
-                <li>${gradoscero}</li>
-                 <li><img src="${imagencero}"></li>
+                <img src="${imagencero}">
+                <li>${gradoscero}°C</li>
                 </div>
                 
                 <div>
                 <li>${horauno}</li>
-                <li>${gradosuno}</li>
-                 <li><img src="${imagenuno}"></li>
+                <img src="${imagenuno}">
+                <li>${gradosuno}°C</li>
                 </div>
 
                 
                 <div>
                 <li>${horados}</li>
-                <li>${gradosdos}</li>
-                 <li><img src="${imagendos}"></li>
+                <img src="${imagendos}">
+                <li>${gradosdos}°C</li>
                 </div>
 
                 <div>
                 <li>${horatres}</li>
-                <li>${gradostres}</li>
-                 <li><img src="${imagentres}"></li>
+                <img src="${imagentres}">
+                <li>${gradostres}°C</li>
                 </div>
 
                 <div>
                 <li>${horacuatro}</li>
-                <li>${gradoscuatro}</li>
-                 <li><img src="${imagencuatro}"></li>
+                <img src="${imagencuatro}">
+                <li>${gradoscuatro}°C</li>
                 </div>
 
                 <div>
                 <li>${horacinco}</li>
-                <li>${gradoscinco}</li>
-                 <li><img src="${imagencinco}"></li>
+                <img src="${imagencinco}">
+                <li>${gradoscinco}°C</li>
                 </div>
 
 
                 <div>
                 <li>${horaseis}</li>
-                <li>${gradosseis}</li>
-                 <li><img src="${imagenseis}"></li>
+                <img src="${imagenseis}">
+                <li>${gradosseis}°C</li>
                 </div>
 
                 <div>
                 <li>${horasiete}</li>
-                <li>${gradossiete}</li>
-                 <li><img src="${imagensiete}"></li>
+               <img src="${imagensiete}">
+                <li>${gradossiete}°C</li>
                 </div>
 
                 <div>
                 <li>${horaocho}</li>
-                <li>${gradosocho}</li>
-                 <li><img src="${imagenocho}"></li>
+                <img src="${imagenocho}">
+                <li>${gradosocho}°C</li>
                 </div>
 
                 <div>
                 <li>${horanueve}</li>
-                <li>${gradosnueve}</li>
-                 <li><img src="${imagenueve}"></li>
+                <img src="${imagenueve}">
+                <li>${gradosnueve}°C</li>
                 </div>
 
                 <div>
                 <li>${horadiez}</li>
-                <li>${gradosdiez}</li>
-                 <li><img src="${imagendiez}"></li>
+                <img src="${imagendiez}">
+                <li>${gradosdiez}°C</li>
                 </div>
 
                 <div>
                 <li>${horaonce}</li>
-                <li>${gradosonce}</li>
-                 <li><img src="${imagenonce}"></li>
+                <img src="${imagenonce}">
+                <li>${gradosonce}°C</li>
                 </div>
 
                 <div>
                 <li>${horadoce}</li>
-                <li>${gradosdoce}</li>
-                 <li><img src="${imagendoce}"></li>
+                <img src="${imagendoce}">
+                <li>${gradosdoce}°C</li>
                 </div>
 
                 <div>
                 <li>${horatrece}</li>
-                <li>${gradostrece}</li>
-                 <li><img src="${imagentrece}"></li>
+                <img src="${imagentrece}">
+                <li>${gradostrece}°C</li>
                 </div>
 
 
                 <div>
                 <li>${horacatorce}</li>
-                <li>${gradoscatorce}</li>
-                 <li><img src="${imagencatorce}"></li>
+                <img src="${imagencatorce}">
+                <li>${gradoscatorce}°C</li>
                 </div>
 
                 <div>
                 <li>${horaquince}</li>
-                <li>${gradosquince}</li>
-                 <li><img src="${imagenquince}"></li>
+                <img src="${imagenquince}">
+                <li>${gradosquince}°C</li>
                 </div>
 
                 <div>
                 <li>${horadieciseis}</li>
-                <li>${gradosdieciseis}</li>
-                 <li><img src="${imagendieciseis}"></li>
+                <img src="${imagendieciseis}">
+                <li>${gradosdieciseis}°C</li>
                 </div>
 
                 <div>
                 <li>${horadiezcisiete}</li>
-                <li>${gradosdiezcisiete}</li>
-                 <li><img src="${imagendiezcisiete}"></li>
+                <img src="${imagendiezcisiete}">
+                <li>${gradosdiezcisiete}°C</li>
                 </div>
 
                 <div>
                 <li>${horadiezciocho}</li>
-                <li>${gradosdiezciocho}</li>
-                 <li><img src="${imagendiezciocho}"></li>
+                <img src="${imagendiezciocho}">
+                <li>${gradosdiezciocho}°C</li>
                 </div>
 
                 <div>
                 <li>${horadiezcinueve}</li>
-                <li>${gradodiezcinueve}</li>
-                 <li><img src="${imagendiezcinueve}"></li>
+                <img src="${imagendiezcinueve}">
+                <li>${gradodiezcinueve}°C</li>
                 </div>
 
                 <div>
                 <li>${horaveinte}</li>
-                <li>${gradosveinte}</li>
-                 <li><img src="${imagenveinte}"></li>
+                <img src="${imagenveinte}">
+                <li>${gradosveinte}°C</li>
                 </div>
 
                 <div>
                 <li>${horaveintiuno}</li>
-                <li>${gradosveintiuno}</li>
-                 <li><img src="${imageveintiuno}"></li>
+                <img src="${imageveintiuno}">
+                <li>${gradosveintiuno}°C</li>
                 </div>
 
                 <div>
                 <li>${horaveintidos}</li>
-                <li>${gradosveintidos}</li>
-                 <li><img src="${imageveintidos}"></li>
+                <img src="${imageveintidos}">
+                <li>${gradosveintidos}°C</li>
                 </div>
 
                 <div>
                 <li>${horaveintitres}</li>
-                <li>${gradosveintitres}</li>
-                 <li><img src="${imagenveintitres}"></li>
+                <img src="${imagenveintitres}">
+                <li>${gradosveintitres}°C</li>
                 </div>
 
             </div>
@@ -330,3 +330,24 @@ function mostrarclima(devolver) {
     const devolver = await obtenerclima();
     mostrarclima(devolver);
 })();
+
+const imagenes = [
+    '/clima/img/1.jpg',
+    '/clima/img/2.jpg',
+    "/clima/img/3.jpeg",
+    '/clima/img/4.jpg',
+    '/clima/img/5.jpg',
+    '/clima/img/6.jpg',
+    '/clima/img/7.jpeg',
+    '/clima/img/8.jpg',
+    '/clima/img/9.jpg',
+    '/clima/img/10.jpg',];
+
+function mostrarImagenAleatoria() 
+{const indiceAleatorio = Math.floor(Math.random() * imagenes.length);
+const imagenAleatoria = imagenes[indiceAleatorio];
+document.body.style.backgroundImage =`url(${imagenAleatoria})`;
+}
+        
+setInterval(mostrarImagenAleatoria, 5000);
+mostrarImagenAleatoria();
