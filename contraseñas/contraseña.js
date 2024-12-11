@@ -2,15 +2,14 @@ const eleccion = document.getElementById("eleccion");
 const boton = document.getElementById("boton");
 const contenedor = document.getElementById("contenedor");
 
-// Array de caracteres
 const letras = [
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZ", // Mayúsculas
-    "abcdefghijklmnopqrstuvwxyz", // Minúsculas
-    "0123456789", // Números
-    "!@#$%^&*()-_=+" // Símbolos
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 
+    "abcdefghijklmnopqrstuvwxyz", 
+    "0123456789", 
+    "!@#$%^&*()-_=+" 
 ];
 
-// Función para generar la contraseña
+
 function generarContraseña() {
     contenedor.innerHTML = "";
     const valor = parseInt(eleccion.value);
@@ -34,7 +33,7 @@ function generarContraseña() {
     
 }
 
-// Evento click para el botón
+
 boton.addEventListener("click", generarContraseña);
 const imagenes = [
     '/contraseñas/img/1.jpg',

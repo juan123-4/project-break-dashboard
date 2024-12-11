@@ -7,30 +7,27 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center;
-    height: 100vh; 
-    width: 100vw;
+    height: 125vh; 
+    width: 97vw;
     font-family: 'Times New Roman', Times, serif;
-    overflow: hidden;
-} 
+     overflow: auto;} 
 
 header {
     width: 100%;
     color: white;
     text-align: center;
-    padding: 10px;
     display: flex; 
     justify-content: flex-start; 
-    padding: 10px;
-}
+    padding: 10px;}
  
 footer {
     width: 100%;
-    color: black; 
+    color: yellow; 
     text-align: center;
     padding: 10px;
     display: flex; 
     justify-content: flex-end; 
-}
+    margin-bottom: 50px;}
 
 .contenedorEnlace {
     background-color: rgba(0, 0, 0, 0.5);
@@ -41,14 +38,12 @@ footer {
     flex-direction: row-reverse;
     display: flex;
     border-radius: 10px;
-     text-align: center;
-    }
+    text-align: center;}
 
 ul, li {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
 .close {
     justify-content: center;
@@ -60,35 +55,29 @@ ul, li {
     height: 15px;
     width: 15px;
     align-items: center;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .espacio {
     color: white;
     display: flex;
     align-items: center;
     text-decoration: none;
-    justify-content: center;
-}
+    justify-content: center;}
 
 #contenedor {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-height: 300px; 
-    overflow-y: auto; 
-}
+    overflow-y: auto; }
 
 .orden button, input {
-    
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     width: 428px;
     height: 30px;
     border-radius: 5px;
-    padding-left: 10px;
-    
-}
+    padding-left: 10px;}
 .orden button{
     background-color: #0371d8;
     width: 445px;
@@ -101,3 +90,47 @@ h1{
     background-color: rgba(0, 0, 0, 0.5);
     padding-left: 30px;
     color: white;}
+
+.header{
+    background-image:url(/principal/img/casa.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid red 5px;}
+    
+.relojicono{ 
+    background-image:url(/principal/img/reloj.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid orange 5px;}
+        
+.contraseñaicono{
+    background-image:url(/principal/img/candado.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid green 5px;}
+            
+.climaicono{
+    background-image:url(/principal/img/clima.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid yellow 5px;}

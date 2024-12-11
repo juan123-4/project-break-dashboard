@@ -3,10 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="principal.css">
     <title>principal</title>
 </head>
-<body>
-    <h1>principal</h1>
-    <h2>si</h2>
+<body>  
+<div class="terminado">
+    
+ 
+    <!-- contraseña -->
+    <div class="password">
+        <h1 class="minititulo">Crea tu contraseña segura</h1>
+        <div class="siu">
+            <h2>Numero de caracteres de la Contraseña</h2>
+            <div>
+                <input type="number" value="12" id="eleccion" min="12" max="50">
+                <button id="boton">Generar contraseña</button>
+            
+            </div>
+
+            
+             <div id="contenedor"></div>
+
+        </div>
+
+    </div>
+     <!-- reloj -->
+    <div class="centro">
+        <div class="reloj">
+            <h1>Son las...</h1>
+            <div id="horas"></div>
+            <div id="fecha"></div>
+            <div id="mensaje"></div>
+        </div>
+    </div>
+
+
+ <!-- enlace -->
+    <div class="general">
+        
+    <h1 class="segundo">Añade tu enlace de interes</h1>
+        <div class="orden">
+            <input type="text" id="nombre" placeholder="Nombre de tu enlace">
+            <input type="text" id="enlace" placeholder="Pega aqui la URL">
+            <button id="botonone">Añadir enlace</button>
+        </div>
+        <div id="contenedorone"> </div>
+
+
+
+    </div>
+
+  <!-- clima -->
+    <div id="clima"></div>
+    
+  </div>
+    <footer>
+        <button class="relojicono" onclick="window.location.href='../relog/reloj.html';"></button>
+        <button class="climaicono" onclick="window.location.href='../clima/clima.html';"></button>
+        <button class="contraseñaicono" onclick="window.location.href='../contraseñas/contraseña.html';"></button>
+        <button class="enlaceicono" onclick="window.location.href='../enlaces/enlaces.html';"></button>
+    </footer>
+    <script src="principal.js"></script>
 </body>
 </html>

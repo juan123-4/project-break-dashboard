@@ -1,70 +1,95 @@
 
-    body { 
-        margin: 0;
-        display: flex; 
-        flex-direction: column; 
-        justify-content: space-between; 
-        align-items: center; 
-        background-size: cover; 
-        background-repeat: no-repeat; 
-        background-position: center;
-        height: 100vh; 
-        width: 100vw;
-        font-family: 'Times New Roman', Times, serif;
-        overflow: hidden;
-    } 
+body { 
+    margin: 0;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh; 
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;} 
     
-    header {
-        
-        width: 100%;
-        
-        color: white;
-        text-align: center;
-        padding: 10px;
-        display: flex; 
-        justify-content: flex-start; 
-        padding: 10px;
-    }
+header {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex; 
+    justify-content: flex-start; 
+    padding: 10px;}
     
+footer {
+    width: 100%;
+    color: white; 
+    text-align: center;
+    padding: 10px;
+    display: flex; 
+    justify-content: flex-end;}
+.horas {
+    list-style-type: none;
+    font-size: 40px;
+    margin: 0;}
     
-    footer {
-        width: 100%;
-        
-        color: white; 
-        text-align: center;
-        padding: 10px;
-        display: flex; 
-        justify-content: flex-end; 
-    }
-    
-    .horas {
-        list-style-type: none;
-        font-size: 40px;
-        margin: 0;
-    }
-    
-    .fecha {
-        list-style-type: none;
-        font-size: 20px;
-    }
-    
-    h1 {
-        text-align: center;
-        margin: 0;
-        font-size: 25px;
-    }
-    
-    .reloj {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        height: 150px;
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border-radius: 15px;
-        padding: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        justify-content: center;
-    }
-    
+.fecha {
+    list-style-type: none;
+    font-size: 20px;}
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;}
+.reloj {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    justify-content: center;}
+.header{
+    background-image:url(/principal/img/casa.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid red 5px;}
+.contraseñaicono{
+    background-image:url(/principal/img/candado.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid green 5px;}
+.enlaceicono{
+    background-image:url(/principal/img/enlace.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid blue 5px;}
+.climaicono{
+    background-image:url(/principal/img/clima.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: solid yellow 5px;}
