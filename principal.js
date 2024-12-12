@@ -157,7 +157,7 @@ function mostrarclima(devolver) {
             <div class="losdos">
             <div class="grados">
             <img src="${imagen}" alt="${ciudad}" class="imagen-clima">
-            <li class="texto"><span id="textop">${grados}</span> <img src='/clima/img/termometro.png' class="imagentemp"> </li> 
+            <li class="texto"><span id="textop">${grados}</span> <img src='./clima/img/termometro.png' class="imagentemp"> </li> 
             </div>
             
             <div class="predicciones">
@@ -334,16 +334,16 @@ function mostrarclima(devolver) {
 })();
 
 const imagenes = [
-    '/clima/img/1.jpg',
-    '/clima/img/2.jpg',
-    "/clima/img/3.jpeg",
-    '/clima/img/4.jpg',
-    '/clima/img/5.jpg',
-    '/clima/img/6.jpg',
-    '/clima/img/7.jpeg',
-    '/clima/img/8.jpg',
-    '/clima/img/9.jpg',
-    '/clima/img/10.jpg',];
+    './clima/img/1.jpg',
+    './clima/img/2.jpg',
+    "./clima/img/3.jpeg",
+    './clima/img/4.jpg',
+    './clima/img/5.jpg',
+    './clima/img/6.jpg',
+    './clima/img/7.jpeg',
+    './clima/img/8.jpg',
+    './clima/img/9.jpg',
+    './clima/img/10.jpg',];
 
 function mostrarImagenAleatoria() 
 {const indiceAleatorio = Math.floor(Math.random() * imagenes.length);
