@@ -32,7 +32,11 @@ footer {
 
 .horas img{
     width: 80px;
-    height: 80px;}
+    height: 80px;
+    align-items: center;
+    justify-content:center
+
+}
 .imagentemp{
     width: 20px;
     height: 40px;}
