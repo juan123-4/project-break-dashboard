@@ -36,16 +36,16 @@ function generarContraseña() {
 
 boton.addEventListener("click", generarContraseña);
 const imagenes = [
-    '/contraseñas/img/1.jpg',
-    '/contraseñas/img/2.png',
-    "/contraseñas/img/3.jpg",
-    '/contraseñas/img/4.png',
-    '/contraseñas/img/5.jpg',
-    '/contraseñas/img/6.png',
-    '/contraseñas/img/7.jpg',
-    '/contraseñas/img/8.jpg',
-    '/contraseñas/img/9.jpg',
-    '/contraseñas/img/10.jpg',];
+    '../contraseñas/img/1.jpg',
+    '../contraseñas/img/2.png',
+    "../contraseñas/img/3.jpg",
+    '../contraseñas/img/4.png',
+    '../contraseñas/img/5.jpg',
+    '../contraseñas/img/6.png',
+    '../contraseñas/img/7.jpg',
+    '../contraseñas/img/8.jpg',
+    '../contraseñas/img/9.jpg',
+    '../contraseñas/img/10.jpg',];
 
 function mostrarImagenAleatoria() 
 {const indiceAleatorio = Math.floor(Math.random() * imagenes.length);

@@ -51,16 +51,16 @@ boton.addEventListener("click", mostrarnombre);
 
 
 const imagenes = [
-    '/enlaces/img/one.jpg',
-    '/enlaces/img/two.jpg',
-    "/enlaces/img/three.jpg",
-    '/enlaces/img/four.png',
-    '/enlaces/img/five.jpg',
-    '/enlaces/img/six.png',
-    '/enlaces/img/seven.jpeg',
-    '/enlaces/img/eight.jpeg',
-    '/enlaces/img/nine.jpeg',
-    '/enlaces/img/ten.jpg',];
+    '../enlaces/img/one.jpg',
+    '../enlaces/img/two.jpg',
+    "../enlaces/img/three.jpg",
+    '../enlaces/img/four.png',
+    '../enlaces/img/five.jpg',
+    '../enlaces/img/six.png',
+    '../enlaces/img/seven.jpeg',
+    '../enlaces/img/eight.jpeg',
+    '../enlaces/img/nine.jpeg',
+    '../enlaces/img/ten.jpg',];
 
 function mostrarImagenAleatoria() 
 {const indiceAleatorio = Math.floor(Math.random() * imagenes.length);

@@ -332,16 +332,16 @@ function mostrarclima(devolver) {
 })();
 
 const imagenes = [
-    '/clima/img/1.jpg',
-    '/clima/img/2.jpg',
-    "/clima/img/3.jpeg",
-    '/clima/img/4.jpg',
-    '/clima/img/5.jpg',
-    '/clima/img/6.jpg',
-    '/clima/img/7.jpeg',
-    '/clima/img/8.jpg',
-    '/clima/img/9.jpg',
-    '/clima/img/10.jpg',];
+    '../clima/img/1.jpg',
+    '../clima/img/2.jpg',
+    "../clima/img/3.jpeg",
+    '../clima/img/4.jpg',
+    '../clima/img/5.jpg',
+    '../clima/img/6.jpg',
+    '../clima/img/7.jpeg',
+    '../clima/img/8.jpg',
+    '../clima/img/9.jpg',
+    '../clima/img/10.jpg',];
 
 function mostrarImagenAleatoria() 
 {const indiceAleatorio = Math.floor(Math.random() * imagenes.length);

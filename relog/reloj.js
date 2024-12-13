@@ -46,16 +46,16 @@ function frases(horasFormato, minutosFormato) {
 }
 
 const imagenes = [
-            '/relog/img/uno.jpg',
-            '/relog/img/dos.jpg',
-            "/relog/img/tres.jpg",
-            '/relog/img/cuatro.jpg',
-            '/relog/img/cinco.jpg',
-            '/relog/img/seis.jpg',
-            '/relog/img/siete.jpeg',
-            '/relog/img/ocho.jpg',
-            '/relog/img/nueve.jpg',
-            '/relog/img/diez.jpg',];
+            '../relog/img/uno.jpg',
+            '../relog/img/dos.jpg',
+            "../relog/img/tres.jpg",
+            '../relog/img/cuatro.jpg',
+            '../relog/img/cinco.jpg',
+            '../relog/img/seis.jpg',
+            '../relog/img/siete.jpeg',
+            '../relog/img/ocho.jpg',
+            '../relog/img/nueve.jpg',
+            '../relog/img/diez.jpg',];
 
         function mostrarImagenAleatoria() 
         {const indiceAleatorio = Math.floor(Math.random() * imagenes.length);

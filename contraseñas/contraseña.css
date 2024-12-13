@@ -68,7 +68,7 @@ ul li{
     width: 70px;
     height:25px ;}
 .header{
-    background-image:url(/principal/img/casa.jpg) ;
+    background-image:url(../principal/img/casa.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +79,7 @@ ul li{
     border: solid red 5px;}
     
 .relojicono{ 
-    background-image:url(/principal/img/reloj.jpg) ;
+    background-image:url(../principal/img/reloj.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +90,7 @@ ul li{
     border: solid orange 5px;}
     
 .enlaceicono{
-    background-image:url(/principal/img/enlace.jpg) ;
+    background-image:url(../principal/img/enlace.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +100,7 @@ ul li{
     border-radius: 40px;
     border: solid blue 5px;}
 .climaicono{
-    background-image:url(/principal/img/clima.jpg) ;
+    background-image:url(../principal/img/clima.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
