@@ -155,7 +155,7 @@ function mostrarclima(devolver) {
             <div class="losdos">
             <div class="grados">
             <img src="${imagen}" alt="${ciudad}" class="imagen-clima">
-            <li class="texto"><span id="textop">${grados}</span> <img src='/clima/img/termometro.png' class="imagentemp"> </li> 
+            <li class="texto"><span id="textop">${grados}</span> <img src='../clima/img/termometro.png' class="imagentemp"> </li> 
             </div>
             
             <div class="predicciones">
